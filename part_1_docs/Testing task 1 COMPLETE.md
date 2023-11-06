@@ -18,17 +18,17 @@ class CardGame:
 
 
   def check_for_ace(self, card):
-	# line below should be == instead of =
+	# The line below should have a double equals like this == instead of a single equals like this =
     if card.value = 1:
       return True
-	# line below should have : after else
+	# The line below should have a colon : right after the else
     else
       return False
    
-	# line below should have a comma , between card1 and card 2	
+	# The line below should have a comma , that goes between card1 and card2	
   dif highest_card(self, card1 card2):
   if card1.value > card2.value:
-	# line below should return card1 instead of card 
+	# The line below should return card1 instead of just card 
     return card
   else:
     return card2
@@ -36,11 +36,11 @@ class CardGame:
 
 
 def cards_total(self, cards):
-	# in the line below total should = 0
+	# The line below should show a total of = 0
   total
   for card in cards:
     total += card.value
-	# the return in the line below shoud be place outside of the loop
+	# The return statement in the final line below shoud be placed outside of the loop
     return "You have a total of" + total
   
 ```
